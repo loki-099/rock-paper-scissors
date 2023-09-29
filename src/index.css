@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  *, *::after, *::before {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+  }
+  .fadeIn {
+    animation: fade-in 300ms ease;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .fadeOut {
+    animation: fade-out 300ms ease;
+  }
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .slideLeft {
+    animation: slide-left 400ms ease;
+  }
+  @keyframes slide-left {
+    0% {
+      left: 100px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+}
