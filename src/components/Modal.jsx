@@ -19,10 +19,10 @@ const Modal = ({ isOpen, setModalState }) => {
         <h1 className='uppercase font-[700] text-3xl text-darkText mb-28 md:hidden'>Rules</h1>
         <div className='hidden md:flex items-center justify-between mb-8'>
           <h1 className='uppercase font-[700] text-3xl text-darkText'>Rules</h1>
-          <img src="/icon-close.svg" alt="close" className='cursor-pointer' onClick={handleCloseModal}/>
+          <img src="/assets/icon-close.svg" alt="close" className='cursor-pointer' onClick={handleCloseModal}/>
         </div>
-        <img src="/image-rules.svg" alt="rules" className='mx-auto mb-28 md:mb-0'/>
-        <img src="/icon-close.svg" alt="close" className='mx-auto cursor-pointer md:hidden' onClick={handleCloseModal}/>
+        <img src="/assets/image-rules.svg" alt="rules" className='mx-auto mb-28 md:mb-0'/>
+        <img src="/assets/icon-close.svg" alt="close" className='mx-auto cursor-pointer md:hidden' onClick={handleCloseModal}/>
       </div>
     </div>
   )
