@@ -10,7 +10,7 @@ const PickComponent = ({ choice, player='player' }) => {
           <div className={`bg-${choice}Shadow absolute rounded-full top-[7px] w-full h-full -z-10`}></div>
           <div className={`bg-${choice}-gradient w-[140px] h-[140px] md:w-[200px] md:h-[200px] flex items-center justify-center rounded-full`}>
             <div className='bg-white w-[110px] h-[110px] md:w-[150px] md:h-[150px] flex items-center justify-center rounded-full'>
-              <img src={`/assets/icon-${choice}.svg`} alt="" className='md:w-[75px]'/>
+              <img src={`/icon-${choice}.svg`} alt="" className='md:w-[75px]'/>
             </div>
           </div>
         </div>
