@@ -22,7 +22,7 @@ const Modal = ({ isOpen, setModalState }) => {
           <img src="./assets/icon-close.svg" alt="close" className='cursor-pointer' onClick={handleCloseModal}/>
         </div>
         <img src="./assets/image-rules.svg" alt="rules" className='mx-auto mb-28 md:mb-0'/>
-        <img src={closeImg} alt="close" className='mx-auto cursor-pointer md:hidden' onClick={handleCloseModal}/>
+        <img src="./assets/icon-close.svg" alt="close" className='mx-auto cursor-pointer md:hidden' onClick={handleCloseModal}/>
       </div>
     </div>
   )
